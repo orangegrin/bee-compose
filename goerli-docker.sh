@@ -1,0 +1,1 @@
+docker run -ti -p 8545:8545 -p 8546:8546 -p 30303:30303 -p 30303:30303/udp openethereum/openethereum:latest --jsonrpc-interface all --ws-interface all --chain goerli
