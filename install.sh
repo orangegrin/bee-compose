@@ -1,8 +1,6 @@
 ./npc uninstall
-./npc install -server=nps.gpu360.com:8024 -vkey=123
+./npc install -server=nps.gpu360.com:8024 -vkey=niceday
 npc start
-cp /etc/apt/sources.list /etc/apt/sources.list.back
-cp ./sources.list /etc/apt/sources.list
 touch /etc/rc.local
 echo '#!/bin/bash' > /etc/rc.local
 echo 'ifconfig' >> /etc/rc.local
