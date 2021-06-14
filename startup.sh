@@ -1,1 +1,1 @@
-docker compose -f /mnt/c/Users/Administrator/Desktop/compose-build/docker-compose.yml --env-file /mnt/c/Users/Administrator/Desktop/compose-build/bee.env up -d
+cd /f/Workspace/bee-compose &&docker compose -f /f/Workspace/bee-compose/docker-compose.yml --env-file /f/Workspace/bee-compose/bee.env up -d
