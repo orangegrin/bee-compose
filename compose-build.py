@@ -64,7 +64,7 @@ bee='''
     ports:
       - "${API_ADDR:-%s}${BEE_API_ADDR:-:1633}"
       - "${P2P_ADDR:-%s}${BEE_P2P_ADDR:-:1634}"
-      - "${DEBUG_API_ADDR:-:%s}${BEE_DEBUG_API_ADDR:-:1635}"
+      - "${DEBUG_API_ADDR:-127.0.0.1:%s}${BEE_DEBUG_API_ADDR:-:1635}"
     volumes:
       - bee-%s:/home/bee/.bee
     command: start
