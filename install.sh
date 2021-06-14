@@ -25,7 +25,7 @@ echo \
 
 
 apt-get update
-apt-get install docker-ce docker-ce-cli containerd.io -y
+apt-get install docker-ce docker-ce-cli containerd.io docker-compose -y
 
 
 systemctl enable rc-local 
